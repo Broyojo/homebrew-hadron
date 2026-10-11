@@ -3,8 +3,8 @@
 #
 #   brew install --cask broyojo/hadron/hadron
 cask "hadron" do
-  version "0.1.1"
-  sha256 "e464eb9f3e0511cd4bea6f1461fae8608ad989a966c59f48012f949445ff5524"
+  version "0.2.0"
+  sha256 "02de69e7886e39748595a8ed7e8683d8392e1f7340fa7515bcb72c19f3db5ce6"
 
   url "https://github.com/Broyojo/hadron/releases/download/v#{version}/Hadron-#{version}.dmg"
   name "Hadron"
