@@ -3,8 +3,8 @@
 #
 #   brew install --cask broyojo/hadron/hadron
 cask "hadron" do
-  version "0.2.0"
-  sha256 "02de69e7886e39748595a8ed7e8683d8392e1f7340fa7515bcb72c19f3db5ce6"
+  version "0.3.0"
+  sha256 "4cdc83e30f90e126d6df6d3f4bbce1e85877cd28d8b6d8b8b4c2285f032ab68d"
 
   url "https://github.com/Broyojo/hadron/releases/download/v#{version}/Hadron-#{version}.dmg"
   name "Hadron"
@@ -13,6 +13,8 @@ cask "hadron" do
 
   depends_on arch: :arm64
   depends_on macos: :golden_gate
+
+  auto_updates true
 
   app "Hadron.app"
   # The same program is the `hadron` command: setup, repair, uninstall, status, report, version.
